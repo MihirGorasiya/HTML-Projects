@@ -1,0 +1,190 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: rgb(32, 32, 32);
+    padding: 2px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+p{
+    margin: 0px;
+}
+.navbar ul{
+    margin: 0px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 5px;
+    padding: 0px 5px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.navbar ul li:hover{
+    background-color: rgb(49, 49, 49);
+    cursor: pointer;
+}
+#overview{
+    height: 100vh;
+    background-image: url(/Practice-5/img/showcase.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    padding-top: 200px;
+}
+#ov1{
+    font-size: 4.5rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+#ov2{
+    font-size: 2.5rem;
+}
+#ov3{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    /* padding: 0px 200px; */
+}
+#music{
+    background-color: rgb(24, 23, 23);
+    color: whitesmoke;
+}
+#ms1{
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+#ms2{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+#ms3{
+    font-size: 1.5rem;
+    padding: 0px 100px;
+    margin-bottom: 20px;
+}
+#msbtn{
+    background-color: red;
+    color: whitesmoke;
+    padding: 8px 5px;
+    border: 2px solid black;
+}
+#ms4{
+    height: 100vh;
+}
+#vd1{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+#vd2{
+    font-size: 1.3rem;
+    padding: 0px 55px;
+    margin-bottom: 20px;
+}
+#rmbtn{
+    padding: 10px;
+    background-color: rgb(4, 4, 110);
+    color: whitesmoke;
+    border: 2px solid black;
+    margin: 20px;
+}
+#vd3{
+    margin-top: 20px;
+}
+#lrm{
+    background: url(/Practice-5/img/section-bg.jpeg) no-repeat bottom/cover;
+    padding: 160px 100px;
+    color: whitesmoke;
+}
+#lrm1{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+#lrm2{
+    font-size: 1.2rem;
+}
+#gc{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+#gc2{
+    padding: 0px;
+    margin-left: 70px;
+    
+}
+#gc1{
+    width: 580px;
+}
+#rdmbtn{
+    border: none;
+    background-color: white;
+    font-size: 1.2rem;
+    color: rgb(38, 38, 145);
+    font-weight: bolder;
+}
+#bottom{
+    background-color: rgb(24, 23, 23);
+    color: whitesmoke;
+    padding: 10px 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: capitalize;
+}
+#sl{
+    margin: 5px 40px;
+}
+#bs{
+    margin: 5px 40px;
+}
+#eb{
+    margin: 5px 40px;
+}
+#ab{
+    margin: 5px 40px;
+}
+#sl ul{
+    padding: 0px;
+    margin: 0px;
+}
+#sl ul li{
+    list-style: none;
+}
+#bs ul{
+    padding: 0px;
+    margin: 0px;
+}
+#bs ul li{
+    list-style: none;
+}
+#eb ul{
+    padding: 0px;
+    margin: 0px;
+}
+#eb ul li{
+    list-style: none;
+}
+#ab ul{
+    padding: 0px;
+    margin: 0px;
+}
+#ab ul li{
+    list-style: none;
+}
+
+#ftr{
+    background-color: rgb(73, 73, 73);
+    color: whitesmoke;
+    padding: 18px;
+}

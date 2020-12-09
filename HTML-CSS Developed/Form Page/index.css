@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(78, 78, 243);
+    color: whitesmoke;
+}
+p{
+    margin-bottom: 0px;
+}
+#form{
+    background-color: blueviolet;
+    border: 2px solid darkslateblue;
+    border-radius: 5px;
+    padding: 25px;
+}

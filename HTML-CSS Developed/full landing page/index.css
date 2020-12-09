@@ -1,0 +1,40 @@
+/* #926239 */
+#banner{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/Practice-2/beachshowcase.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #926239;
+}
+#title{
+    padding: 0px;
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+#dis{
+    font-size: 1.5rem;
+}
+button{
+    padding: 10px;
+    border: #926239 1px solid;
+    border-radius: 7px;
+    color: #926239;
+}
+button:hover{
+    background-color: #926239;
+    color: whitesmoke;
+}
+#pr1{
+    background-color: #926239;
+    color: whitesmoke;
+    text-align: center;
+}
+#pr2{
+    background-color: whitesmoke;
+    color: #926239;
+    text-align: center;
+}
